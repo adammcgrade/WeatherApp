@@ -2,7 +2,7 @@
 A weather app for iOS that displays forecast information from the Dark Sky API.
 The user of this app can view the current, 24 hour and weekly forecasts for 20 locations around the world. The user also has the ability to favourite a forecast. This forecast will conveniently display everytime the app is loaded. 
 
-![](WeatherApp-demo.gif)
+![](WeatherApp-Demo.gif)
 
 ## Technical Info
 
