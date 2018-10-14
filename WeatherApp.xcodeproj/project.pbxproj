@@ -19,6 +19,7 @@
 		DB1D0E36210EF6690027C0A9 /* DailyWeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D0E35210EF6690027C0A9 /* DailyWeatherDetailsViewController.swift */; };
 		DB1D0E39210F05120027C0A9 /* WeatherDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D0E37210F05120027C0A9 /* WeatherDetailsTableViewCell.swift */; };
 		DB1D0E3A210F05120027C0A9 /* WeatherDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1D0E38210F05120027C0A9 /* WeatherDetailsTableViewCell.xib */; };
+		DB3B62FA217346FE00A9CEF8 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3B62F9217346FE00A9CEF8 /* APIKey.swift */; };
 		DB4DB17721229C0D007652C8 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4DB17621229C0D007652C8 /* FavouriteButton.swift */; };
 		DB572FA6212CFD2F0052B4ED /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB572FA5212CFD2F0052B4ED /* UINavigationController+Extensions.swift */; };
 		DB572FA8212D001D0052B4ED /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB572FA7212D001D0052B4ED /* UIView+Extensions.swift */; };
@@ -55,6 +56,7 @@
 		DB1D0E35210EF6690027C0A9 /* DailyWeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherDetailsViewController.swift; sourceTree = "<group>"; };
 		DB1D0E37210F05120027C0A9 /* WeatherDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		DB1D0E38210F05120027C0A9 /* WeatherDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		DB3B62F9217346FE00A9CEF8 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		DB4DB17621229C0D007652C8 /* FavouriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteButton.swift; sourceTree = "<group>"; };
 		DB572FA5212CFD2F0052B4ED /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
 		DB572FA7212D001D0052B4ED /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				DB8F88CF2117F9CD00C85207 /* WeatherDataController.swift */,
+				DB3B62F9217346FE00A9CEF8 /* APIKey.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				DB1D0E2E210EDE270027C0A9 /* SelectLocationTableViewController.swift in Sources */,
 				DB1D0E34210EE8100027C0A9 /* CurrentWeatherDetailsViewController.swift in Sources */,
 				DB8F88D02117F9CD00C85207 /* WeatherDataController.swift in Sources */,
+				DB3B62FA217346FE00A9CEF8 /* APIKey.swift in Sources */,
 				DBF764E1211A94530084C92B /* WeeklyWeatherDetailsViewController.swift in Sources */,
 				DB1D0E2C210EDDDD0027C0A9 /* TableCellIdentifiers.swift in Sources */,
 				DBBDE6272114580C003BC4A0 /* Forecast.swift in Sources */,

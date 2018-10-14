@@ -9,7 +9,7 @@
 import Foundation
 
 struct WeatherDataController {
-    private let apiKey = "a0648b6928c4b57eba3310d6bc223487"
+    private let apiKey = Secret.apiKey
     private let baseURL = "https://api.darksky.net/forecast/"
     
     static let shared = WeatherDataController()
